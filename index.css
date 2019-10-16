@@ -1,0 +1,50 @@
+
+body{
+  position: relative;
+  font-family:"Courier New", Times, Monospace;
+  font-weight:bold;
+  background-color: #000
+}
+.color{
+  width:500px;
+  height:300px;
+  border:2px solid black;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+}
+.red,.green,.blue,.hexadecimal{
+  margin:0 auto;
+  text-align:center;
+  width: 250px;
+}
+
+.hexadecimal{
+  font-size:50px;
+  color: #000;
+  background-color:#ffffff;
+  opacity:0.8;
+}
+.redBlock,.redDigit,.greenBlock,.greenDigit,.blueBlock,.blueDigit{
+  display: inline-block;
+  width:30px;
+  height:1em;
+  text-align:center;
+  background-color: red;
+}
+.greenBlock,.greenDigit{
+  background-color: green;
+}
+.blueBlock,.blueDigit{
+  background-color: blue;
+}
+.redDigit,.greenDigit,.blueDigit{
+  width:50px;
+}
+.redBlock,.redDigit,#redRange,.greenBlock,.greenDigit,#greenRange,.blueBlock,.blueDigit,#blueRange{
+  vertical-align:middle;
+}
+
